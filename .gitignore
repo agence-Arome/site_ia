@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+vendor/
+node_modules/
+wp-content/uploads/
+wp-content/debug.log
+*.sql
+*.sqlite
+*.log
+.runtime/
+/test-results/
+/playwright-report/
+dist/
+*.zip
+wp-config.php

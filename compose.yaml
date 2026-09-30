@@ -1,0 +1,51 @@
+services:
+  db:
+    image: mariadb:11.4
+    environment:
+      MARIADB_DATABASE: ${DB_NAME:-expert_wp}
+      MARIADB_USER: ${DB_USER:-expert_wp}
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Renseigner DB_PASSWORD dans .env}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Renseigner DB_ROOT_PASSWORD dans .env}
+    volumes:
+      - database:/var/lib/mysql
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  wordpress:
+    image: wordpress:7.1.2-php8.3-apache
+    ports:
+      - "127.0.0.1:${WP_PORT:-8080}:80"
+    environment: &wp-environment
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: ${DB_NAME:-expert_wp}
+      WORDPRESS_DB_USER: ${DB_USER:-expert_wp}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_ENVIRONMENT_TYPE', 'local');
+        define('DISALLOW_FILE_EDIT', true);
+        define('EWP_MAILPIT', true);
+    volumes: &wp-volumes
+      - wordpress:/var/www/html
+      - ./wp-content/themes/expert-wp:/var/www/html/wp-content/themes/expert-wp
+      - ./wp-content/plugins/expert-wp-leads:/var/www/html/wp-content/plugins/expert-wp-leads
+      - ./tools:/var/www/html/project-tools:ro
+      - ./tests:/var/www/html/project-tests:ro
+    depends_on:
+      db:
+        condition: service_healthy
+  cli:
+    image: wordpress:cli-php8.3
+    user: "33:33"
+    environment: *wp-environment
+    volumes: *wp-volumes
+    depends_on:
+      - wordpress
+  mailpit:
+    image: axllent/mailpit:v1.27
+    ports:
+      - "127.0.0.1:8025:8025"
+volumes:
+  database:
+  wordpress:

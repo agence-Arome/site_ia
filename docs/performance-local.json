@@ -1,0 +1,11 @@
+{
+  "localOnly": true,
+  "viewport": 1440,
+  "ttfbMs": 275,
+  "loadMs": 356,
+  "lcpMs": 496,
+  "cls": 0,
+  "transferredBytes": 152518,
+  "resourceCount": 5,
+  "externalOrigins": []
+}

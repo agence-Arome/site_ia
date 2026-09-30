@@ -1,0 +1,6 @@
+{
+  "name":"expert-wp-site","version":"0.1.0","private":true,
+  "description":"Vérifications navigateur du site WordPress",
+  "scripts":{"test:browser":"node tests/browser.cjs","preview:export":"node tools/export-offline.cjs"},
+  "devDependencies":{"playwright":"1.62.1","axe-core":"4.10.3"}
+}

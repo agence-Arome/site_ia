@@ -1,0 +1,9 @@
+{
+  "name": "expert-wp/site",
+  "description": "Thème Gutenberg et gestion de demandes WordPress",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "require-dev": {"wp-coding-standards/wpcs": "^3.2", "phpcompatibility/phpcompatibility-wp": "^2.1"},
+  "config": {"allow-plugins": {"dealerdirect/phpcodesniffer-composer-installer": true}},
+  "scripts": {"lint": "phpcs", "fix": "phpcbf"}
+}

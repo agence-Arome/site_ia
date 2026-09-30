@@ -1,0 +1,1 @@
+{"apiVersion":3,"name":"expert-wp/quote","version":"0.1.0","title":"Demande de devis","category":"widgets","icon":"email-alt","description":"Formulaire sécurisé et conditionnel de demande.","textdomain":"expert-wp-leads","editorScript":"ewp-editor","attributes":{"mode":{"type":"string","default":"quote"}},"supports":{"html":false,"multiple":false}}
