@@ -5,7 +5,10 @@ const content=JSON.parse(fs.readFileSync(path.join(__dirname,'content.json'),'ut
 const paths=['/',...content.filter(p=>p.slug!=='accueil'&&p.status!=='draft').map(p=>'/'+(p.parent?p.parent+'/':'')+p.slug+'/')];
 const cssCache=new Map();
 async function css(url){if(!cssCache.has(url)){const r=await fetch(url);if(!r.ok)throw Error(url);cssCache.set(url,await r.text());}return cssCache.get(url);}
-const pageScript=`
+const statsScript=fs.readFileSync(path.join(__dirname,'../wp-content/themes/expert-wp/assets/agency-stats.js'),'utf8');
+const pageScript=statsScript+`\n
+document.querySelectorAll('.wp-block-navigation-submenu__toggle').forEach(function(button){button.setAttribute('aria-expanded','false');button.addEventListener('click',function(){var expanded=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!expanded));});});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){var open=document.querySelectorAll('.wp-block-navigation-submenu__toggle[aria-expanded="true"]');if(open.length){e.stopImmediatePropagation();var last=open[open.length-1];last.setAttribute('aria-expanded','false');last.focus();}}});
 document.querySelectorAll('form').forEach(function(form){
  form.removeAttribute('action');
  form.addEventListener('submit',function(e){e.preventDefault();var status=form.querySelector('[role="status"]');if(status){status.textContent='Aperçu hors ligne : aucune demande n’est envoyée ni enregistrée.';}else{alert('Cette fonction nécessite le site WordPress installé.');}});
@@ -40,9 +43,9 @@ var requested='__OFFLINE_SERVICE__';var select=document.querySelector('[name="se
  pages['/mentions-legales/']=legal;pages['/confidentialite/']=legal;
  const json=JSON.stringify(pages).replaceAll('<','\\u003c');
  const output=`<!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Expert WP — Aperçu hors ligne</title><style>html,body{margin:0;height:100%;overflow:hidden}iframe{border:0;width:100%;height:100%;display:block}</style></head><body><iframe id="site" title="Aperçu du site Expert WP"></iframe><script>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Les Experts Wordpress — Aperçu hors ligne</title><style>html,body{margin:0;height:100%;overflow:hidden}iframe{border:0;width:100%;height:100%;display:block}</style></head><body><iframe id="site" title="Aperçu du site Les Experts Wordpress"></iframe><script>
 const pages=${json};const frame=document.getElementById('site');
-function show(){var route=decodeURI(location.hash.slice(1)||'/');var key=route.split('?')[0];if(!key.endsWith('/'))key+='/';var service=new URLSearchParams(route.split('?')[1]||'').get('service')||'';if(!/^(creation|refonte|depannage|securite|maintenance|developpement)$/.test(service))service='';frame.srcdoc=(pages[key]||pages['/']).replaceAll('__OFFLINE_SERVICE__',service);}
+function show(){var route=decodeURI(location.hash.slice(1)||'/');var key=route.split('?')[0];if(!key.endsWith('/'))key+='/';var service=new URLSearchParams(route.split('?')[1]||'').get('service')||'';if(!/^[a-z-]{1,40}$/.test(service))service='';frame.srcdoc=(pages[key]||pages['/']).replaceAll('__OFFLINE_SERVICE__',service);}
 window.addEventListener('message',function(e){if(e.source!==frame.contentWindow||e.data?.kind!=='expert-wp-offline-route')return;var route=e.data.route;if(typeof route==='string'&&route.startsWith('/')){if(location.hash.slice(1)===route)show();else location.hash=route;}});window.addEventListener('hashchange',show);show();
 </script><noscript>Activez JavaScript dans votre navigateur pour consulter les pages de cette copie hors ligne.</noscript></body></html>`;
  fs.writeFileSync(path.join(__dirname,'../index.html'),output);console.log(JSON.stringify({pages:Object.keys(pages).length,bytes:Buffer.byteLength(output)}));

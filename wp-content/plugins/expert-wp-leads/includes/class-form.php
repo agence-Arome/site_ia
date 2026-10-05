@@ -109,27 +109,119 @@ final class Form {
 	/** Services and their one essential qualification question. */
 	public static function services() {
 		return array(
-			'creation'      => array(
+			'campagne-google-ads'               => array(
+				'label'    => 'Campagne Google Ads',
+				'question' => 'Quels objectifs, quelle zone et quel budget publicitaire envisagez-vous ?',
+			),
+			'emailing'                          => array(
+				'label'    => 'Emailing',
+				'question' => 'À qui souhaitez-vous écrire, avec quel objectif et à quelle fréquence ?',
+			),
+			'fichiers-bdd-emails'               => array(
+				'label'    => 'Fichiers et Bdd emails',
+				'question' => 'Quelle est l’origine de votre base et quels usages souhaitez-vous en faire ?',
+			),
+			'community-management'              => array(
+				'label'    => 'Community management',
+				'question' => 'Quels réseaux utilisez-vous et quelle audience souhaitez-vous toucher ?',
+			),
+			'creation-logo-charte-graphique'    => array(
+				'label'    => 'Création de logo, charte graphique',
+				'question' => 'Disposez-vous déjà d’une identité et sur quels supports sera-t-elle utilisée ?',
+			),
+			'creation-plaquette-catalogue'      => array(
+				'label'    => 'Création de plaquette, catalogue…',
+				'question' => 'Quel support souhaitez-vous créer, avec quel volume et quelle diffusion ?',
+			),
+			'campagne-publicitaire-tous-medias' => array(
+				'label'    => 'Campagne publicitaire tous médias',
+				'question' => 'Quel message, quels publics, quels médias et quel calendrier envisagez-vous ?',
+			),
+			'ia'                                => array(
+				'label'    => 'IA pour WordPress et WooCommerce',
+				'question' => 'Quelle tâche souhaitez-vous faciliter avec l’IA et quelles données seraient utilisées ?',
+			),
+			'woo-securite'                      => array(
+				'label'    => 'Sécurisation WooCommerce',
+				'question' => 'Souhaitez-vous prévenir un risque ou avez-vous constaté un incident sur votre boutique ?',
+			),
+			'wordpress'                         => array(
+				'label'    => 'Présentation de l’expertise WordPress',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'blog'                              => array(
+				'label'    => 'Création de blog WordPress',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'woocommerce'                       => array(
+				'label'    => 'Présentation de l’expertise WooCommerce',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'woo-creation'                      => array(
+				'label'    => 'Création de boutique WooCommerce',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'woo-refonte'                       => array(
+				'label'    => 'Refonte de boutique WooCommerce',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'woo-maintenance'                   => array(
+				'label'    => 'Maintenance WooCommerce',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'woo-depannage'                     => array(
+				'label'    => 'Dépannage WooCommerce',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'woo-optimisation'                  => array(
+				'label'    => 'Optimisation WooCommerce',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'elementor'                         => array(
+				'label'    => 'Elementor',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'gutenberg'                         => array(
+				'label'    => 'Gutenberg',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'seo'                               => array(
+				'label'    => 'SEO',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'modules'                           => array(
+				'label'    => 'Modules',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'applications'                      => array(
+				'label'    => 'Applications',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'themes'                            => array(
+				'label'    => 'Thèmes',
+				'question' => 'Quel est votre besoin pour cette prestation et quel est votre site actuel, si vous en avez un ?',
+			),
+			'creation'                          => array(
 				'label'    => 'Création de site WordPress',
 				'question' => 'Quel est l’objectif principal du nouveau site ?',
 			),
-			'refonte'       => array(
+			'refonte'                           => array(
 				'label'    => 'Refonte de site WordPress',
 				'question' => 'Que souhaitez-vous améliorer sur votre site actuel ?',
 			),
-			'depannage'     => array(
+			'depannage'                         => array(
 				'label'    => 'Dépannage de site piraté',
 				'question' => 'Quels symptômes avez-vous constatés et depuis quand ?',
 			),
-			'securite'      => array(
+			'securite'                          => array(
 				'label'    => 'Audit et sécurisation',
 				'question' => 'Quel périmètre souhaitez-vous faire auditer ?',
 			),
-			'maintenance'   => array(
+			'maintenance'                       => array(
 				'label'    => 'Maintenance et mises à jour',
 				'question' => 'Quel suivi recherchez-vous et à quelle fréquence ?',
 			),
-			'developpement' => array(
+			'developpement'                     => array(
 				'label'    => 'Développement sur mesure',
 				'question' => 'Quelle fonctionnalité ou intégration souhaitez-vous créer ?',
 			),

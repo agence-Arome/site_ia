@@ -37,6 +37,7 @@ foreach ( $ewp_items as $ewp_item ) {
 	WP_CLI::log( 'Créé : ' . $ewp_path );
 }
 if ( ! get_option( 'ewp_content_initialized' ) ) {
+	update_option( 'blogname', 'Les Experts Wordpress' );
 	update_option( 'show_on_front', 'page' );
 	update_option( 'page_on_front', $ewp_ids['accueil'] );
 	update_option( 'page_for_posts', $ewp_ids['blog'] );
