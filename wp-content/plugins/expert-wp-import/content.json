@@ -559,12 +559,12 @@
   },
   {
     "slug": "zones-accompagnement",
-    "title": "Notre accompagnement WordPress autour d’Avignon",
+    "title": "Notre accompagnement WordPress dans le sud de la France",
     "template": "service",
     "description": "Découvrez les départements accompagnés par Arôme depuis Avignon : Vaucluse, Bouches-du-Rhône, Gard, Hérault et Drôme, pour WordPress et WooCommerce.",
     "seo": {
       "keyphrase": "accompagnement WordPress",
-      "title": "Nos zones d’accompagnement WordPress | Arôme",
+      "title": "WordPress dans le sud de la France | Arôme",
       "robots": "index",
       "description": "Découvrez les départements accompagnés par Arôme depuis Avignon : Vaucluse, Bouches-du-Rhône, Gard, Hérault et Drôme, pour WordPress et WooCommerce."
     },

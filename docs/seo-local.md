@@ -32,3 +32,7 @@ Une session WordPress connectée est nécessaire pour effectuer l’intégration
 - Google : éviter les pages locales similaires servant uniquement d’intermédiaires https://developers.google.com/search/docs/essentials/spam-policies#doorways
 
 L’objectif est une navigation utile par département. La présence de villes dans les textes ne garantit pas leur affichage dans un extrait Google, ni une visibilité dans Google Maps.
+
+Publication vérifiée le 8 octobre 2026 : six pages créées, 41 contenus précédents conservés. Titre de la page de navigation : Notre accompagnement WordPress dans le sud de la France. Les cinq pages départementales présentent un seul H1, une métadescription et une canonique correspondant à leur URL. Lien ajouté au pied de page du site publié. Le menu principal reste inchangé.
+
+Prochaine série demandée : Var (Toulon, Fréjus, Draguignan), Alpes-Maritimes (Nice, Antibes, Cannes), Aude (Narbonne, Carcassonne, Castelnaudary), Pyrénées-Orientales (Perpignan). Ces pages ne sont pas encore créées.
