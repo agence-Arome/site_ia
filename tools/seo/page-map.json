@@ -1,0 +1,371 @@
+[
+  {
+    "slug": "accueil",
+    "url": "/",
+    "h1": "Votre agence WordPress et WooCommerce.",
+    "keyphrase": "agence WordPress",
+    "title": "Agence WordPress et WooCommerce | Les Experts WordPress",
+    "description": "Arôme, agence WordPress à Avignon : création, refonte, sécurité et maintenance de sites et boutiques WooCommerce. Échangeons sur votre projet.",
+    "robots": "index"
+  },
+  {
+    "slug": "services",
+    "url": "/services/",
+    "h1": "Services",
+    "keyphrase": "services WordPress",
+    "title": "Services WordPress et WooCommerce | Arôme",
+    "description": "Découvrez nos services WordPress et WooCommerce : création, refonte, dépannage, maintenance et SEO. Choisissez un accompagnement adapté à votre projet.",
+    "robots": "index"
+  },
+  {
+    "slug": "devis",
+    "url": "/devis/",
+    "h1": "Parlons de votre projet",
+    "keyphrase": "devis WordPress",
+    "title": "Devis WordPress : présentez votre projet | Arôme",
+    "description": "Demandez un devis WordPress adapté à votre site ou boutique WooCommerce. Précisez votre besoin, vos objectifs et vos contraintes pour cadrer le projet.",
+    "robots": "index"
+  },
+  {
+    "slug": "contact",
+    "url": "/contact/",
+    "h1": "Contact : échangez avec un expert WordPress",
+    "keyphrase": "contact expert WordPress",
+    "title": "Contact expert WordPress : parlons de votre site | Arôme",
+    "description": "Contactez nos experts WordPress pour un projet internet ou un site piraté. Formulaire, téléphone et horaires : échangez avec notre agence à Avignon.",
+    "robots": "index"
+  },
+  {
+    "slug": "merci",
+    "url": "/merci/",
+    "h1": "Votre demande",
+    "keyphrase": "",
+    "title": "Demande reçue | Les Experts WordPress",
+    "description": "Retrouvez les informations de suivi de votre demande adressée à notre équipe WordPress et WooCommerce.",
+    "robots": "noindex"
+  },
+  {
+    "slug": "realisations",
+    "url": "/realisations/",
+    "h1": "Des projets à découvrir",
+    "keyphrase": "projets WordPress",
+    "title": "Projets WordPress et WooCommerce | Arôme",
+    "description": "Découvrez notre démarche pour présenter des projets WordPress et WooCommerce documentés. Contactez Arôme pour échanger sur un projet comparable au vôtre.",
+    "robots": "noindex"
+  },
+  {
+    "slug": "blog",
+    "url": "/blog/",
+    "h1": "Le journal",
+    "keyphrase": "conseils WordPress",
+    "title": "Conseils WordPress et WooCommerce | Le journal Arôme",
+    "description": "Retrouvez nos conseils WordPress et WooCommerce pour préparer un projet, comprendre les choix techniques et faire évoluer votre site internet.",
+    "robots": "index"
+  },
+  {
+    "slug": "mentions-legales",
+    "url": "/mentions-legales/",
+    "h1": "Mentions légales — à compléter",
+    "keyphrase": "",
+    "title": "Mentions légales | Les Experts WordPress",
+    "description": "Informations relatives à l’éditeur du site Les Experts WordPress et à son hébergement.",
+    "robots": "noindex"
+  },
+  {
+    "slug": "confidentialite",
+    "url": "/confidentialite/",
+    "h1": "Confidentialité — à compléter",
+    "keyphrase": "",
+    "title": "Confidentialité et données personnelles | Arôme",
+    "description": "Informations sur les données personnelles collectées via Les Experts WordPress, leur utilisation et les modalités d’exercice de vos droits.",
+    "robots": "noindex"
+  },
+  {
+    "slug": "creation-site-wordpress",
+    "url": "/services/creation-site-wordpress/",
+    "h1": "Création de site WordPress sur mesure",
+    "keyphrase": "création site WordPress",
+    "title": "Création site WordPress sur mesure | Arôme",
+    "description": "Confiez votre création de site WordPress à Arôme : site vitrine, contenus Gutenberg, parcours de contact et SEO. Un projet cadré selon vos besoins.",
+    "robots": "index"
+  },
+  {
+    "slug": "refonte-site-wordpress",
+    "url": "/services/refonte-site-wordpress/",
+    "h1": "Refonte de sites WordPress",
+    "keyphrase": "refonte WordPress",
+    "title": "Refonte WordPress : faites évoluer votre site | Arôme",
+    "description": "Préparez votre refonte WordPress : audit, nouvelle structure, reprise des contenus et redirections. Modernisez votre site avec un accompagnement adapté.",
+    "robots": "index"
+  },
+  {
+    "slug": "depannage-site-pirate",
+    "url": "/services/depannage-site-pirate/",
+    "h1": "Dépannage de sites piratés",
+    "keyphrase": "site WordPress piraté",
+    "title": "Site WordPress piraté : dépannage et nettoyage | Arôme",
+    "description": "Votre site WordPress est piraté ? Nos experts analysent l’incident, nettoient les fichiers et renforcent les accès. Contactez notre équipe spécialisée.",
+    "robots": "index"
+  },
+  {
+    "slug": "audit-securite-wordpress",
+    "url": "/services/audit-securite-wordpress/",
+    "h1": "Audit et sécurisation WordPress",
+    "keyphrase": "sécurité WordPress",
+    "title": "Sécurité WordPress : audit et sécurisation | Arôme",
+    "description": "Renforcez la sécurité WordPress de votre site : audit des accès, extensions, sauvegardes et configuration. Identifiez les risques et les actions prioritaires.",
+    "robots": "index"
+  },
+  {
+    "slug": "maintenance-wordpress",
+    "url": "/services/maintenance-wordpress/",
+    "h1": "Maintenance WordPress et mises à jour",
+    "keyphrase": "maintenance WordPress",
+    "title": "Maintenance WordPress et mises à jour | Arôme",
+    "description": "Confiez votre maintenance WordPress à Arôme : mises à jour contrôlées, sauvegardes et suivi technique. Définissons le périmètre adapté à votre site.",
+    "robots": "index"
+  },
+  {
+    "slug": "developpement-wordpress-sur-mesure",
+    "url": "/services/developpement-wordpress-sur-mesure/",
+    "h1": "Développement WordPress sur mesure",
+    "keyphrase": "développement WordPress",
+    "title": "Développement WordPress sur mesure | Arôme",
+    "description": "Développement WordPress sur mesure : connectez votre CRM, vos réservations et vos outils métier. Des fonctionnalités cadrées, testées et documentées.",
+    "robots": "index"
+  },
+  {
+    "slug": "preparer-projet-wordpress",
+    "url": "/preparer-projet-wordpress/",
+    "h1": "Préparer votre projet WordPress : les questions utiles",
+    "keyphrase": "projet WordPress",
+    "title": "Préparer un projet WordPress : les questions utiles",
+    "description": "Préparez votre projet WordPress : objectifs, contenus, budget, hébergement et maintenance. Les questions utiles avant de créer votre site internet.",
+    "robots": "index"
+  },
+  {
+    "slug": "expert-wordpress",
+    "url": "/services/expert-wordpress/",
+    "h1": "Expert WordPress : conseil et accompagnement",
+    "keyphrase": "expert WordPress",
+    "title": "Expert WordPress : conseil et accompagnement | Arôme",
+    "description": "Un expert WordPress pour comprendre votre site, prioriser les actions et vous accompagner. Conseil technique, création et évolutions avec l’agence Arôme.",
+    "robots": "index"
+  },
+  {
+    "slug": "creation-blog-wordpress",
+    "url": "/services/creation-blog-wordpress/",
+    "h1": "Créer un blog WordPress professionnel",
+    "keyphrase": "blog WordPress",
+    "title": "Créer un blog WordPress professionnel | Arôme",
+    "description": "Créez un blog WordPress adapté à votre entreprise : rubriques, modèles d’articles, SEO et prise en main. Partagez votre expertise avec des contenus structurés.",
+    "robots": "index"
+  },
+  {
+    "slug": "expert-woocommerce",
+    "url": "/services/expert-woocommerce/",
+    "h1": "Expert WooCommerce : conseil et accompagnement",
+    "keyphrase": "expert WooCommerce",
+    "title": "Expert WooCommerce pour votre boutique | Arôme",
+    "description": "Un expert WooCommerce pour cadrer votre boutique, améliorer les parcours d’achat et organiser son suivi. Découvrez l’accompagnement proposé par Arôme.",
+    "robots": "index"
+  },
+  {
+    "slug": "creation-boutique-woocommerce",
+    "url": "/services/creation-boutique-woocommerce/",
+    "h1": "Création de boutique WooCommerce",
+    "keyphrase": "création boutique WooCommerce",
+    "title": "Création boutique WooCommerce sur mesure | Arôme",
+    "description": "Préparez votre création de boutique WooCommerce : catalogue, paiement, livraison et gestion des commandes. Une boutique WordPress adaptée à votre activité.",
+    "robots": "index"
+  },
+  {
+    "slug": "refonte-boutique-woocommerce",
+    "url": "/services/refonte-boutique-woocommerce/",
+    "h1": "Refonte de boutique WooCommerce",
+    "keyphrase": "refonte WooCommerce",
+    "title": "Refonte WooCommerce : modernisez votre boutique | Arôme",
+    "description": "Organisez votre refonte WooCommerce : audit, catalogue, parcours d’achat et migration. Préservez les données utiles et préparez une mise en ligne contrôlée.",
+    "robots": "index"
+  },
+  {
+    "slug": "maintenance-woocommerce",
+    "url": "/services/maintenance-woocommerce/",
+    "h1": "Maintenance WooCommerce",
+    "keyphrase": "maintenance WooCommerce",
+    "title": "Maintenance WooCommerce : suivi de boutique | Arôme",
+    "description": "La maintenance WooCommerce protège la continuité de votre boutique : mises à jour, sauvegardes et tests du panier. Définissons ensemble votre suivi.",
+    "robots": "index"
+  },
+  {
+    "slug": "depannage-woocommerce",
+    "url": "/services/depannage-woocommerce/",
+    "h1": "Dépannage WooCommerce",
+    "keyphrase": "dépannage WooCommerce",
+    "title": "Dépannage WooCommerce : panier et paiement | Arôme",
+    "description": "Besoin d’un dépannage WooCommerce ? Nous recherchons la cause des erreurs de panier, paiement ou commande et préparons une correction adaptée.",
+    "robots": "index"
+  },
+  {
+    "slug": "optimisation-woocommerce",
+    "url": "/services/optimisation-woocommerce/",
+    "h1": "Optimisation WooCommerce",
+    "keyphrase": "optimisation WooCommerce",
+    "title": "Optimisation WooCommerce : vitesse et parcours | Arôme",
+    "description": "Optimisation WooCommerce : analysez la vitesse, les fiches produits et le parcours d’achat. Priorisez les améliorations utiles à votre boutique en ligne.",
+    "robots": "index"
+  },
+  {
+    "slug": "elementor",
+    "url": "/services/elementor/",
+    "h1": "Expert Elementor et Elementor Pro",
+    "keyphrase": "expert Elementor",
+    "title": "Expert Elementor et Elementor Pro pour WordPress | Arôme",
+    "description": "Un expert Elementor pour créer, reprendre ou optimiser vos pages WordPress. Mise en page responsive, modèles Elementor Pro et accompagnement technique.",
+    "robots": "index"
+  },
+  {
+    "slug": "gutenberg",
+    "url": "/services/gutenberg/",
+    "h1": "Gutenberg WordPress : édition et modèles de pages",
+    "keyphrase": "Gutenberg WordPress",
+    "title": "Gutenberg WordPress : des pages faciles à éditer | Arôme",
+    "description": "Exploitez Gutenberg WordPress avec des blocs et modèles adaptés à votre entreprise. Créez des pages cohérentes et gardez la main sur vos contenus.",
+    "robots": "index"
+  },
+  {
+    "slug": "seo",
+    "url": "/services/seo/",
+    "h1": "SEO WordPress : audit et optimisation",
+    "keyphrase": "SEO WordPress",
+    "title": "SEO WordPress : audit et optimisation | Arôme",
+    "description": "Améliorez votre SEO WordPress : structure des pages, mots-clés, métadonnées et maillage interne. Un accompagnement fondé sur les besoins de votre audience.",
+    "robots": "index"
+  },
+  {
+    "slug": "modules",
+    "url": "/services/modules/",
+    "h1": "Modules WordPress : intégration et développement",
+    "keyphrase": "modules WordPress",
+    "title": "Modules WordPress : choix et développement | Arôme",
+    "description": "Choisissez les modules WordPress utiles à votre site : audit des extensions, intégration et développements ciblés. Limitez les dépendances inutiles.",
+    "robots": "index"
+  },
+  {
+    "slug": "applications",
+    "url": "/services/applications/",
+    "h1": "Applications WordPress et outils métier",
+    "keyphrase": "applications WordPress",
+    "title": "Applications WordPress et connexions métier | Arôme",
+    "description": "Reliez vos applications WordPress à vos outils métier : CRM, réservations, espace client et API. Cadrez les échanges de données avec notre équipe.",
+    "robots": "index"
+  },
+  {
+    "slug": "themes",
+    "url": "/services/themes/",
+    "h1": "Thème WordPress sur mesure et personnalisation",
+    "keyphrase": "thème WordPress",
+    "title": "Thème WordPress sur mesure et personnalisation | Arôme",
+    "description": "Créez un thème WordPress adapté à votre identité ou faites évoluer un thème existant. Modèles de pages, responsive et édition des contenus avec Arôme.",
+    "robots": "index"
+  },
+  {
+    "slug": "nos-autres-services",
+    "url": "/services/nos-autres-services/",
+    "h1": "Nos autres services",
+    "keyphrase": "services web",
+    "title": "Services web, communication et création | Arôme",
+    "description": "Complétez votre projet WordPress avec nos services web, communication digitale et création graphique. Explorez les expertises complémentaires d’Arôme.",
+    "robots": "index"
+  },
+  {
+    "slug": "ia-wordpress-woocommerce",
+    "url": "/services/ia-wordpress-woocommerce/",
+    "h1": "L’IA au service de WordPress et WooCommerce",
+    "keyphrase": "IA WordPress",
+    "title": "IA WordPress et WooCommerce : usages concrets | Arôme",
+    "description": "Explorez l’IA pour WordPress et WooCommerce : aide aux contenus, automatisations et assistance. Des usages cadrés avec validation humaine et suivi.",
+    "robots": "index"
+  },
+  {
+    "slug": "securisation-woocommerce",
+    "url": "/services/securisation-woocommerce/",
+    "h1": "Sécurisation WooCommerce",
+    "keyphrase": "sécurisation WooCommerce",
+    "title": "Sécurisation WooCommerce : protégez votre boutique",
+    "description": "La sécurisation WooCommerce concerne les accès, extensions, sauvegardes et parcours d’achat. Identifiez les risques avec un audit adapté à votre boutique.",
+    "robots": "index"
+  },
+  {
+    "slug": "campagne-google-ads",
+    "url": "/services/campagne-google-ads/",
+    "h1": "Campagne Google Ads",
+    "keyphrase": "campagne Google Ads",
+    "title": "Campagne Google Ads et pages de destination | Arôme",
+    "description": "Préparez votre campagne Google Ads : objectifs, annonces, pages de destination et mesure des demandes. Un accompagnement adapté à votre budget.",
+    "robots": "index"
+  },
+  {
+    "slug": "emailing",
+    "url": "/services/emailing/",
+    "h1": "Emailing",
+    "keyphrase": "emailing",
+    "title": "Emailing : campagnes et parcours de contact | Arôme",
+    "description": "Structurez votre emailing : messages, segmentation, modèles et pages de destination. Préparez des campagnes cohérentes avec votre site et vos objectifs.",
+    "robots": "index"
+  },
+  {
+    "slug": "fichiers-bdd-emails",
+    "url": "/services/fichiers-bdd-emails/",
+    "h1": "Fichiers et Bdd emails",
+    "keyphrase": "base de données emails",
+    "title": "Base de données emails : structure et qualité | Arôme",
+    "description": "Organisez votre base de données emails : sources, qualité, segmentation et connexion aux outils. Préparez des campagnes avec des données maîtrisées.",
+    "robots": "index"
+  },
+  {
+    "slug": "community-management",
+    "url": "/services/community-management/",
+    "h1": "Community management",
+    "keyphrase": "community management",
+    "title": "Community management et contenus de marque | Arôme",
+    "description": "Développez un community management cohérent : calendrier éditorial, publications et échanges. Reliez vos réseaux sociaux aux contenus de votre site.",
+    "robots": "index"
+  },
+  {
+    "slug": "creation-logo-charte-graphique",
+    "url": "/services/creation-logo-charte-graphique/",
+    "h1": "Création de logo, charte graphique",
+    "keyphrase": "création de logo",
+    "title": "Création de logo et charte graphique | Arôme",
+    "description": "La création de logo et de charte graphique donne des repères à votre marque. Préparez une identité cohérente pour votre site et vos supports de communication.",
+    "robots": "index"
+  },
+  {
+    "slug": "creation-plaquette-catalogue",
+    "url": "/services/creation-plaquette-catalogue/",
+    "h1": "Création de plaquette, catalogue…",
+    "keyphrase": "création de catalogue",
+    "title": "Création de catalogue et plaquette commerciale | Arôme",
+    "description": "Préparez la création de catalogue ou de plaquette : structure, textes, visuels et mise en page. Des supports cohérents avec votre site et votre marque.",
+    "robots": "index"
+  },
+  {
+    "slug": "campagne-publicitaire-tous-medias",
+    "url": "/services/campagne-publicitaire-tous-medias/",
+    "h1": "Campagne publicitaire tous médias",
+    "keyphrase": "campagne publicitaire",
+    "title": "Campagne publicitaire tous médias | Arôme",
+    "description": "Construisez une campagne publicitaire cohérente : concept, messages et déclinaisons digitales ou imprimées. Reliez chaque support à un objectif clair.",
+    "robots": "index"
+  },
+  {
+    "slug": "qui-sommes-nous",
+    "url": "/qui-sommes-nous/",
+    "h1": "Qui sommes-nous ?",
+    "keyphrase": "agence experte WordPress",
+    "title": "Arôme, agence experte WordPress à Avignon",
+    "description": "Découvrez Arôme, agence experte WordPress à Avignon : une équipe sur place pour concevoir, sécuriser et faire évoluer vos sites et boutiques WooCommerce.",
+    "robots": "index"
+  }
+]

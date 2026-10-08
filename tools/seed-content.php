@@ -34,6 +34,14 @@ foreach ( $ewp_items as $ewp_item ) {
 	if ( isset( $ewp_item['description'] ) ) {
 		update_post_meta( $ewp_id, '_ewp_description', $ewp_item['description'] );
 	}
+	if ( isset( $ewp_item['seo'] ) ) {
+		$ewp_seo = $ewp_item['seo'];
+		update_post_meta( $ewp_id, '_ewp_seo_title', sanitize_text_field( $ewp_seo['title'] ) );
+		update_post_meta( $ewp_id, '_yoast_wpseo_title', sanitize_text_field( $ewp_seo['title'] ) );
+		update_post_meta( $ewp_id, '_yoast_wpseo_metadesc', sanitize_text_field( $ewp_seo['description'] ) );
+		update_post_meta( $ewp_id, '_yoast_wpseo_focuskw', sanitize_text_field( $ewp_seo['keyphrase'] ) );
+		update_post_meta( $ewp_id, '_yoast_wpseo_meta-robots-noindex', 'noindex' === $ewp_seo['robots'] ? '1' : '0' );
+	}
 	WP_CLI::log( 'Créé : ' . $ewp_path );
 }
 if ( ! get_option( 'ewp_content_initialized' ) ) {
