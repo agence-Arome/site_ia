@@ -369,15 +369,6 @@
     "robots": "index"
   },
   {
-    "slug": "zones-accompagnement",
-    "url": "/zones-accompagnement/",
-    "h1": "Notre accompagnement WordPress dans le sud de la France",
-    "keyphrase": "accompagnement WordPress",
-    "title": "WordPress dans le sud de la France | Arôme",
-    "robots": "index",
-    "description": "Découvrez les départements accompagnés par Arôme depuis Avignon : Vaucluse, Bouches-du-Rhône, Gard, Hérault et Drôme, pour WordPress et WooCommerce."
-  },
-  {
     "slug": "agence-wordpress-vaucluse",
     "url": "/agence-wordpress-vaucluse/",
     "h1": "Agence WordPress dans le Vaucluse : une équipe à Avignon",
@@ -420,6 +411,51 @@
     "keyphrase": "WordPress Drôme",
     "title": "Agence WordPress Drôme (26) | Valence, Montélimar, Romans",
     "description": "Arôme accompagne vos projets WordPress dans la Drôme : Valence, Montélimar, Romans-sur-Isère. Création, WooCommerce, refonte et suivi technique.",
+    "robots": "index"
+  },
+  {
+    "slug": "zones-accompagnement",
+    "url": "/zones-accompagnement/",
+    "h1": "Notre accompagnement WordPress dans le sud de la France",
+    "keyphrase": "accompagnement WordPress",
+    "title": "WordPress dans le sud de la France | Arôme",
+    "robots": "index",
+    "description": "WordPress et WooCommerce dans le sud de la France : découvrez les neuf départements accompagnés par Arôme, agence basée à Avignon."
+  },
+  {
+    "slug": "agence-wordpress-var",
+    "url": "/agence-wordpress-var/",
+    "h1": "Votre projet WordPress dans le Var",
+    "keyphrase": "WordPress Var",
+    "title": "Agence WordPress Var (83) | Toulon, Fréjus, Draguignan",
+    "description": "WordPress dans le Var : création, refonte et WooCommerce à Toulon, Fréjus et Draguignan. Arôme accompagne votre projet depuis Avignon.",
+    "robots": "index"
+  },
+  {
+    "slug": "agence-wordpress-alpes-maritimes",
+    "url": "/agence-wordpress-alpes-maritimes/",
+    "h1": "WordPress et WooCommerce dans les Alpes-Maritimes",
+    "keyphrase": "WordPress Alpes-Maritimes",
+    "title": "Agence WordPress Alpes-Maritimes | Nice, Antibes, Cannes",
+    "description": "Votre projet WordPress dans les Alpes-Maritimes : Nice, Antibes, Cannes. Sites vitrines, WooCommerce, refonte et maintenance avec Arôme.",
+    "robots": "index"
+  },
+  {
+    "slug": "agence-wordpress-aude",
+    "url": "/agence-wordpress-aude/",
+    "h1": "Création et accompagnement WordPress dans l’Aude",
+    "keyphrase": "WordPress Aude",
+    "title": "Agence WordPress Aude | Narbonne, Carcassonne, Castelnaudary",
+    "description": "WordPress dans l’Aude : sites vitrines et WooCommerce pour Narbonne, Carcassonne et Castelnaudary. Création, refonte et suivi avec Arôme.",
+    "robots": "index"
+  },
+  {
+    "slug": "agence-wordpress-pyrenees-orientales",
+    "url": "/agence-wordpress-pyrenees-orientales/",
+    "h1": "Votre expert WordPress dans les Pyrénées-Orientales",
+    "keyphrase": "WordPress Pyrénées-Orientales",
+    "title": "WordPress Pyrénées-Orientales (66) | Perpignan — Arôme",
+    "description": "Un projet WordPress à Perpignan ou dans les Pyrénées-Orientales ? Arôme accompagne la création, WooCommerce, la refonte et la maintenance.",
     "robots": "index"
   }
 ]

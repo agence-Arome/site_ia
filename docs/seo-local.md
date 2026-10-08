@@ -36,3 +36,9 @@ L’objectif est une navigation utile par département. La présence de villes d
 Publication vérifiée le 8 octobre 2026 : six pages créées, 41 contenus précédents conservés. Titre de la page de navigation : Notre accompagnement WordPress dans le sud de la France. Les cinq pages départementales présentent un seul H1, une métadescription et une canonique correspondant à leur URL. Lien ajouté au pied de page du site publié. Le menu principal reste inchangé.
 
 Prochaine série demandée : Var (Toulon, Fréjus, Draguignan), Alpes-Maritimes (Nice, Antibes, Cannes), Aude (Narbonne, Carcassonne, Castelnaudary), Pyrénées-Orientales (Perpignan). Ces pages ne sont pas encore créées.
+
+## Deuxième série préparée
+
+Les pages /agence-wordpress-var/, /agence-wordpress-alpes-maritimes/, /agence-wordpress-aude/ et /agence-wordpress-pyrenees-orientales/ sont créées dans les sources et dans l’aperçu bleu. Les villes demandées figurent dans les contenus visibles. Leurs angles abordent respectivement les temps forts et le mobile, le multilingue et les visuels, le catalogue et l’autonomie éditoriale, la reprise et les évolutions progressives.
+
+La page de navigation inclut désormais neuf départements. Sur WordPress, l’importeur crée les quatre nouvelles pages mais conserve la page de navigation existante : son contenu et sa métadescription doivent être mis à jour dans Gutenberg. La session est déconnectée au moment de la préparation ; la publication de cette série reste à effectuer. Les tests des 51 contenus sources et des 50 pages autonomes passent.
