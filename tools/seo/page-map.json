@@ -367,5 +367,59 @@
     "title": "Arôme, agence experte WordPress à Avignon",
     "description": "Découvrez Arôme, agence experte WordPress à Avignon : une équipe sur place pour concevoir, sécuriser et faire évoluer vos sites et boutiques WooCommerce.",
     "robots": "index"
+  },
+  {
+    "slug": "zones-accompagnement",
+    "url": "/zones-accompagnement/",
+    "h1": "Notre accompagnement WordPress autour d’Avignon",
+    "keyphrase": "accompagnement WordPress",
+    "title": "Nos zones d’accompagnement WordPress | Arôme",
+    "robots": "index",
+    "description": "Découvrez les départements accompagnés par Arôme depuis Avignon : Vaucluse, Bouches-du-Rhône, Gard, Hérault et Drôme, pour WordPress et WooCommerce."
+  },
+  {
+    "slug": "agence-wordpress-vaucluse",
+    "url": "/agence-wordpress-vaucluse/",
+    "h1": "Agence WordPress dans le Vaucluse : une équipe à Avignon",
+    "keyphrase": "WordPress Vaucluse",
+    "title": "Agence WordPress Vaucluse (84) | Arôme à Avignon",
+    "description": "Agence WordPress dans le Vaucluse : création, WooCommerce, maintenance et sécurité. Arôme accompagne vos projets depuis Avignon.",
+    "robots": "index"
+  },
+  {
+    "slug": "agence-wordpress-bouches-du-rhone",
+    "url": "/agence-wordpress-bouches-du-rhone/",
+    "h1": "Expert WordPress pour les entreprises des Bouches-du-Rhône",
+    "keyphrase": "WordPress Bouches-du-Rhône",
+    "title": "Agence WordPress Bouches-du-Rhône (13) | Arôme",
+    "description": "WordPress et WooCommerce dans les Bouches-du-Rhône : création, refonte, maintenance et sécurité pour Marseille, Aix-en-Provence et Arles.",
+    "robots": "index"
+  },
+  {
+    "slug": "agence-wordpress-gard",
+    "url": "/agence-wordpress-gard/",
+    "h1": "WordPress et WooCommerce pour votre entreprise dans le Gard",
+    "keyphrase": "WordPress Gard",
+    "title": "Agence WordPress Gard (30) | Nîmes, Alès, Beaucaire",
+    "description": "Un projet WordPress dans le Gard ? Arôme accompagne Nîmes, Alès et Beaucaire : site vitrine, boutique WooCommerce, dépannage et maintenance.",
+    "robots": "index"
+  },
+  {
+    "slug": "agence-wordpress-herault",
+    "url": "/agence-wordpress-herault/",
+    "h1": "Votre projet WordPress et WooCommerce dans l’Hérault",
+    "keyphrase": "WordPress Hérault",
+    "title": "Agence WordPress Hérault (34) | Montpellier, Béziers, Sète",
+    "description": "Création WordPress et WooCommerce dans l’Hérault : Montpellier, Béziers, Sète. Arôme vous accompagne à distance depuis son agence d’Avignon.",
+    "robots": "index"
+  },
+  {
+    "slug": "agence-wordpress-drome",
+    "url": "/agence-wordpress-drome/",
+    "h1": "Création et suivi de sites WordPress dans la Drôme",
+    "keyphrase": "WordPress Drôme",
+    "title": "Agence WordPress Drôme (26) | Valence, Montélimar, Romans",
+    "description": "Arôme accompagne vos projets WordPress dans la Drôme : Valence, Montélimar, Romans-sur-Isère. Création, WooCommerce, refonte et suivi technique.",
+    "robots": "index"
   }
 ]
